@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img src="../image/Crop_Audi_logo.png" alt="" width="100px" />
+      </a>
+    </header>
+    <div class="l-form">
+      <div class="shape1"></div>
+      <div class="shape2"></div>
+
+      <div class="form">
+        <img src="../image/form_img.jpg" alt="" class="form__img" />
+
+        <form action="" class="form__content">
+          <h1 class="form__title">회원가입</h1>
+
+          <div class="form__div form__div-one">
+            <div class="form__icon">
+              <i class="bx bx-user-circle"></i>
+            </div>
+
+            <div class="form__div-input">
+              <label for="" class="form__label">아이디</label>
+              <input type="text" class="form__input" autofocus />
+            </div>
+          </div>
+
+          <div class="form__div">
+            <div class="form__icon">
+              <i class="bx bx-lock"></i>
+            </div>
+
+            <div class="form__div-input">
+              <label for="" class="form__label">비밀번호</label>
+              <input type="password" class="form__input" />
+            </div>
+          </div>
+          <a href="#" class="form__forgot">비밀번호를 잊으셨나요?</a>
+
+          <input
+            type="submit"
+            class="form__button"
+            value="로그인"
+            style="color: #fff; background-color: #000"
+          />
+
+          <div class="form__social">
+            <span class="form__social-text">다음 계정으로 가입하기</span>
+
+            <a
+              href="https://www.facebook.com/?locale=ko_KR"
+              class="form__social-icon"
+              style="background-color: dodgerblue"
+              target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a
+              href="https://accounts.google.com/"
+              class="form__social-icon"
+              style="background-color: palevioletred"
+              target="_blank"
+              ><i class="bx bxl-google"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              class="form__social-icon"
+              style="
+                background: radial-gradient(
+                    circle farthest-corner at 32% 106%,
+                    #ffe17d 0%,
+                    #ffcd69 10%,
+                    #fa9137 28%,
+                    #eb4141 42%,
+                    transparent 82%
+                  ),
+                  linear-gradient(135deg, #234bd7 12%, #c33cbe 58%);
+              "
+              target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+  </body>
+</html>
